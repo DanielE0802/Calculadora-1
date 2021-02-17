@@ -101,3 +101,11 @@ body{
 .operadores:hover{
     transform: scale(1.06);
 }
+
+.resultado{
+    background: rgb(60, 159, 201);
+}
+
+.multiplicacion{
+    background: rgb(233, 56, 24);
+}
