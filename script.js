@@ -29,6 +29,7 @@ let btnAParentecis = añadirElemento("btnAParentecis")
 let btnBParentecis = añadirElemento("btnBParentecis")
 
 let resultado = añadirElemento("resultado")
+let subtotal = añadirElemento("subtotal")
 
 let parte1Operacion;
 let parte2Operacion;
@@ -138,6 +139,7 @@ function resolver(){
     resetear();
     resultado.textContent = res;
   }
+
 
   function limpiar(){
     resultado.textContent = "";
